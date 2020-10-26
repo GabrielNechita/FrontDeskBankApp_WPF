@@ -1,0 +1,26 @@
+﻿<Page x:Class="PL.TransferAndBills"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PL"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TransferAndBills">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0">Amount:</Label>
+        <TextBox Grid.Row="0" x:Name="Amount" Margin="30"/>
+        <Label Grid.Row="1">Transfer To Account Id:</Label>
+        <TextBox Grid.Row="1" x:Name="TransferTo" Margin="30"/>
+        <Button Grid.Row="2" Width="100" Height="20" Click="Transfer_Click">Transfer</Button>
+        <Button Grid.Row="3" Width="100" Height="20" Click="PayBill_Click">Pay Bill</Button>
+    </Grid>
+</Page>

@@ -5,7 +5,7 @@
 # Requirement analysis
 
 ## Assignment Specification
-Use JAVA/C# API to design and implement an application for the front desk employees of a bank. The application should have two types of users (a regular user represented by the front desk employee and an administrator user) which have to provide a username and a password in order to use the application.
+Design and implement a WPF application for the front desk employees of a bank. The application should have two types of users (a regular user represented by the front desk employee and an administrator user) which have to provide a username and a password in order to use the application.
 
 The regular user can perform the following operations:
 - Add/update/view client information (name, identity card number, personal numerical code, address, etc.).
